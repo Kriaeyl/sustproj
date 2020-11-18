@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">sustproj</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="balance">Balance:</string>
+    <string name="add">Add Balance</string>
+    <string name="collect">Pending Medicine</string>
+    <string name="history">Transaction History</string>
+    <string name="descID">Prescription ID:</string>
+    <string name="descCode">BNF Code:</string>
+    <string name="descName">BNF Name:</string>
+    <string name="descQty">Quantity:</string>
+    <string name="descDate">Date:</string>
+    <string name="descCost">Cost:</string>
+    <string name="descLocation">Location:</string>
+    <string name="descStatus">Status:</string>
+    <string name="done">Done</string>
+</resources>
