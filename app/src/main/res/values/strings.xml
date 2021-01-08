@@ -15,4 +15,6 @@
     <string name="descLocation">Location:</string>
     <string name="descStatus">Status:</string>
     <string name="done">Done</string>
+    <string name="toAddTitle">Amount To Add ($):</string>
+    <string name="amtAdd">Amount To Add ($):</string>
 </resources>
