@@ -90,7 +90,7 @@ public class FragmentPending extends Fragment {
         //Set the Pending ListView
         ListView lv = v.findViewById(R.id.lv);
         al = new ArrayList<>();
-        client.post("http://10.0.2.2/sustproj/getPendingPrescriptions.php", params, new JsonHttpResponseHandler() {
+        client.post("http://homes.soi.rp.edu.sg/18055124/getPendingPrescriptions.php", params, new JsonHttpResponseHandler() {
             @Override
             public void onSuccess(int statusCode, Header[] headers, JSONArray response) {
                 try {

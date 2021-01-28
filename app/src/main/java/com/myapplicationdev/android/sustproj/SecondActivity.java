@@ -51,7 +51,7 @@ public class SecondActivity extends AppCompatActivity {
 
         //Set Wallet Balance
         tv1 = findViewById(R.id.walletBalance);
-        client.post("http://10.0.2.2/sustproj/getBalance.php", params, new JsonHttpResponseHandler(){
+        client.post("http://homes.soi.rp.edu.sg/18055124/sustproj/getBalance.php", params, new JsonHttpResponseHandler(){
             @Override
             public void onSuccess(int statusCode, Header[] headers, JSONObject response) {
                 try {

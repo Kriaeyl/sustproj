@@ -101,7 +101,7 @@ public class AddBalanceActivity extends AppCompatActivity {
                         params.add("username", sp.getString("username", ""));
                         params.add("password", sp.getString("password", ""));
                         params.add("amt", et1.getText().toString());
-                        client.post("http://10.0.2.2/sustproj/addBalance.php", params, new JsonHttpResponseHandler(){
+                        client.post("http://homes.soi.rp.edu.sg/18055124/sustproj/addBalance.php", params, new JsonHttpResponseHandler(){
                             @Override
                             public void onSuccess(int statusCode, Header[] headers, JSONObject response) {
                                 try {

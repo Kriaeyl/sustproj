@@ -52,7 +52,7 @@ public class QRCodeActivity extends AppCompatActivity {
         params.add("code", code);
 
         //Get QRCode value from database
-        client.post("http://10.0.2.2/sustproj/getQRCode.php", params, new JsonHttpResponseHandler() {
+        client.post("http://homes.soi.rp.edu.sg/18055124/getQRCode.php", params, new JsonHttpResponseHandler() {
             @Override
             public void onSuccess(int statusCode, Header[] headers, JSONObject response) {
                 try {

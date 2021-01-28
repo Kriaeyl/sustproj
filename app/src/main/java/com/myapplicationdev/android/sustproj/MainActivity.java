@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
                 RequestParams params = new RequestParams();
                 params.add("username", et1.getText().toString());
                 params.add("password", et2.getText().toString());
-                client.post("http://10.0.2.2/sustproj/login.php", params, new JsonHttpResponseHandler(){
+                client.post("http://homes.soi.rp.edu.sg/18055124/sustproj/login.php", params, new JsonHttpResponseHandler(){
                     @Override
                     public void onSuccess(int statusCode, Header[] headers, JSONObject response) {
                         try {
